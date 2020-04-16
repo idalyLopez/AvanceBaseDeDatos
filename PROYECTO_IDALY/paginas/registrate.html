@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTRATE</title>
+	<style type="text/css">
+		body{
+                   background-image: url(fondo1.jpg);		
+               	}
+		div{
+				display: flex;
+			}
+			
+		header{
+				background-color: #ADD8E6
+			}	
+			nav{
+                font-size: 25px;
+                color:white;
+            }
+
+            form{
+            	width: 500px;
+            	height: 800px;
+            	font-size: 35px;
+            	position: absolute;
+            	border: none;
+            	color: black;
+            	background-color: #ADD8E6
+            	padding-top:45px;
+            	border: 5px;
+            	transform: translate(45%, 10%);
+            }
+
+            h2{
+				background-color:#FFA500;
+                width:450px;
+                height: 50px;
+                text-align: center;
+			}
+
+	</style>
+</head>
+
+<body>
+<header>
+	<nav>
+			<h1><center>REGISTRATE</center></h1>
+			<ul>
+                 <center><li><a href="../index.html">Inicio</a></li></center>
+                 <center><li><a href="informacion.html">Informacion</a></li></center>
+                 <center><li><a href="servicios.html">Servicios</a></li></center>
+                 <center><li><a href="nuestrotrabajo.html">Nuestro trabajo</a></li></center>
+                 <center><li><a href="contactanos.html">Contactanos</a></li></center>
+            </ul>
+		</nav>
+</header>
+
+	<h2>Registrate a continuación</h2>
+	<br>
+	<br>
+	<form  action="registrar.php" method="POST"  >
+		<label>Nombre: </label> <input type="text" name="nombre">
+	    <br>
+	    <br>
+	    <label>Apellidos: </label> <input type="text" name="apellidos">
+	    <br>
+	    <br>
+	    <label>Email: </label> <input type="text" name="email">
+	    <br>
+	    <br>
+	    <label>Servicio que necesitas: </label> <input type="text" name="mensaje">
+		
+		
+		<input type="submit" value="Enviar datos"/>
+			
+	</form>
+	
+
+
+
+</body>
+</html>
